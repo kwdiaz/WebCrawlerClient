@@ -4,6 +4,8 @@
 
 This project is a web crawler that extracts the first 30 entries from [Hacker News](https://news.ycombinator.com/). The crawler retrieves the entry number, title, points, and number of comments. Additionally, it provides filtering capabilities based on title length and comment/point count.
 
+**Note: this is an extra app for showing data in a user friendly UI**
+
 ## Features
 
 - **Web Scraping:** Extracts data from Hacker News.
