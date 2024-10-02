@@ -44,6 +44,7 @@ This project is a web crawler that extracts the first 30 entries from [Hacker Ne
    - In a new terminal window, navigate to the `WebCrawlerClient` directory (if you aren't already there).
    - Execute the following command to start the React application:
    ```bash
+   npm install
    npm start
 
 # Additional default documentation 
