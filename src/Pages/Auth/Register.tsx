@@ -27,7 +27,7 @@ const Register: React.FC = () => {
             setError(null); // Reset error message
 
             // Redirect the user to the Options page after successful registration
-            navigate('/options');
+            navigate('/login');
         } catch (error) {
             setError('Error registering user. Please try again.'); // Set error message
             setSuccess(null); // Reset success message
