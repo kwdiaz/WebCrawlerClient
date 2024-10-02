@@ -19,6 +19,7 @@ This project is a web crawler that extracts the first 30 entries from [Hacker Ne
 - React (Frontend)
 - ASP.NET Core (Backend)
 - Axios (HTTP requests)
+- Tailwind (CSS Styling)
 - SQL Server (Database)
 
 ## Installation
