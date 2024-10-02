@@ -1,4 +1,51 @@
-# Getting Started with Create React App
+# Web Crawler for Hacker News
+
+## Overview
+
+This project is a web crawler that extracts the first 30 entries from [Hacker News](https://news.ycombinator.com/). The crawler retrieves the entry number, title, points, and number of comments. Additionally, it provides filtering capabilities based on title length and comment/point count.
+
+## Features
+
+- **Web Scraping:** Extracts data from Hacker News.
+- **Filtering Options:**
+  - Entries with more than five words in the title, ordered by the number of comments.
+  - Entries with five or fewer words in the title, ordered by points.
+- **Usage Data Tracking:** Stores request timestamps and the applied filter.
+
+## Technologies Used
+
+- React (Frontend)
+- ASP.NET Core (Backend)
+- Axios (HTTP requests)
+- SQL Server (Database)
+
+## Installation
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- WebCrawlerAPI [link](https://github.com/kwdiaz/WebCrawlerAPI) (API Side Project)
+
+### Steps to Run the Project
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/kwdiaz/WebCrawlerClient.git
+   cd webcrawlerclient
+2. **Set Up and Run the Backend:**
+   - Open the `WebCrawlerAPI` project in Visual Studio.
+   - If you haven't set up the backend yet, please refer to the instructions in the `WebCrawlerAPI`[link](https://github.com/kwdiaz/WebCrawlerAPI) repository for guidance on installation and configuration.
+   - Start the backend application by selecting the appropriate launch settings in Visual Studio and running the project.
+
+3. **Initialize the Frontend Application:**
+   - In a new terminal window, navigate to the `WebCrawlerClient` directory (if you aren't already there).
+   - Execute the following command to start the React application:
+   ```bash
+   npm start
+
+# Additional default documentation 
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
