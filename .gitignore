@@ -1,4 +1,58 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js build output
+.next/
+out/
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Storybook build outputs
+out/
+
+# SASS cache
+.sass-cache/
+
+# Ignore test output
+*.spec.js
+*.test.js
+coverage/
+
+# Build output from frameworks like Gatsby
+public/
 
 # dependencies
 /node_modules
